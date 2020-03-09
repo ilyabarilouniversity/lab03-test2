@@ -18,12 +18,12 @@ jobs:
 
     steps:
     - name: Print Hellow World Test
-      run: excho Hellow World Test
+      run: echo Hellow World Test
   
   lab02test_deploy:
     runs-on: ubuntu-latest
 
     steps:
     - name: Print Hellow World Deploy
-      run: excho Hellow World Deploy
+      run: echo Hellow World Deploy
     
